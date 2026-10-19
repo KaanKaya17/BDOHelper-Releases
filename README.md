@@ -1,26 +1,30 @@
-# BDOHelper
+# BDOHelper 0.4.38
 
 Black Desert için Türkçe Windows masaüstü yardımcısı.
 
 ## İndir
 
-[Windows kurulum dosyası](https://github.com/KaanKaya17/BDOHelper-Releases/releases/latest/download/BDOHelper.Desktop-win-Setup.exe)
+[Sürüm notları ve 0.4.38 dosyaları](https://github.com/KaanKaya17/BDOHelper-Releases/releases/tag/v0.4.38)
 
-[Taşınabilir paket](https://github.com/KaanKaya17/BDOHelper-Releases/releases/latest/download/BDOHelper.Desktop-win-Portable.zip)
+[Windows kurulum dosyası](https://github.com/KaanKaya17/BDOHelper-Releases/releases/latest/download/BDOHelper.Desktop-win-Setup.exe) · [Taşınabilir paket](https://github.com/KaanKaya17/BDOHelper-Releases/releases/latest/download/BDOHelper.Desktop-win-Portable.zip)
 
-Windows 10/11, 64 bit. Kurulum paketi gerekli .NET çalışma zamanını içerir.
+Windows 10/11, 64 bit. Paketler gerekli .NET çalışma zamanını içerir. Taşınabilir kullanımda ZIP dosyasının tamamını bir klasöre çıkarıp dosyaları birlikte tut.
 
-## Özellikler
+## Bu sürüm
 
-- İşleme ve Balık menüleri
-- Öğeye özel hazırlık listeleri ve kişisel notlar
-- Arama ve favoriler
-- Otomatik yerel kayıt
-- GitHub Releases üzerinden güncelleme kontrolü
+- Venecil/Karki ile depodan Kesme: seçili odun işlenir, kalas ve kontrplak depoya bırakılıp seçilen tur sayısına göre devam edilir.
+- Doğrulanan odun seçimi bir kez uygulanır; kalan adet OCR'ı seçimi engellemez.
+- Miktar penceresi tanınınca F → Enter ile tüm yığın bırakılır.
+- İki ürün aktarıldıktan sonra gereksiz envanter taraması yapılmaz.
+- Malzeme ikonları, hazırlık listeleri ve kişisel notlar bulunur.
+- İşleme özeti kartı görsel önizlemedir; üretim sayımı henüz etkin değildir.
 
-Yeni sürümler açılışta ve altı saatte bir kontrol edilir. Uygulamada **Güncellemeler → İndir ve güncelle** ile kurulur. Güncelleme sırasında kişisel notlar ve favoriler korunur.
+Yardımcı, oyun durumunu ekrandaki görüntüden belirler ve kullanıcının seçip başlattığı işlemi fare/klavye girdileriyle yürütür. F8 ile durdurulabilir.
 
-Taşınabilir kullanımda ZIP dosyasının tamamını bir klasöre çıkarın ve dosyaları birlikte tutun.
+## Güncelleme
 
-Bu repo kurulum ve güncelleme dosyalarının dağıtımı içindir. Uygulama kişisel planlama yardımcısıdır; oyun içinde otomatik işlem yapmaz.
+Kurulu veya güncellenebilir taşınabilir sürümde **Güncellemeler → İndir ve güncelle** kullanılır. Yeni sürümler açılışta ve altı saatte bir kontrol edilir; kurulum kullanıcı seçimiyle başlar. Kişisel notlar ve favoriler korunur.
 
+Yerel test klasöründeki kopyalarda güncellemeler kapalıdır. Güncellenebilir dağıtıma geçmek için kurulum dosyasını veya taşınabilir paketi kullan.
+
+Bu repo kurulum ve güncelleme dosyalarının dağıtımı içindir.
